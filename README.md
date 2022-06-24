@@ -6,7 +6,7 @@ The client, Steve, is a financial analyst who is requesting a VBA script that wi
 ### Purpose & Background
 I will be using stock data compiled by the client and VBA to calculate the total daily value and the percent yearly return of each stock. The total daily volume is the total number of shares traded throughout the day and measures how actively a stock is traded. The yearly return percentage is the difference in price from the beginning of the year to the end of the year, this gives an idea of how much investment can grow or shrink if it is never sold. These metrics can be used to measure the success of each stock and used as evidence to support savvy investment decisions. I will not be suggesting which ticker the client should invest in as doing so is outside my area of expertise.
 
-## Results (use images and examples of code)
+## Results
 I was provided a starter code to begin the stock analysis and refactored the code to fit the needs of this challenge. The runtime for each script is provided below to demonstrate the effectiveness of this refactored code.
 To calculate the total daily volume of each stock, I developed a script that loops through each row of the stock data and adds up all the daily values of a specified stock to produce a total. The script then outputs this total in a separate sheet with the analysis results.
 To calculate the yearly return for each year, I developed a script that loops through all the rows of stock data to find the starting and closing price of each stock for the year specified by the user. The starting and ending prices are then used to calculate the percent yearly return, which is then output to the analysis sheet.
