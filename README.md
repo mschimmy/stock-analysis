@@ -12,7 +12,7 @@ To calculate the total daily volume of each stock, I developed a script that loo
 To calculate the yearly return for each year, I developed a script that loops through all the rows of stock data to find the starting and closing price of each stock for the year specified by the user. The starting and ending prices are then used to calculate the percent yearly return, which is then output to the analysis sheet.
 I then used conditional formatting to illustrate the outcomes of each script and increase the overall impact of the analysis results, and created a button to run the script. The runtime of the refactored script for 2017 and 2018 is also provided below in the appropriate analysis section.
 
-### Analysis of 2017 stock
+### Analysis of 2017 Stock
 ![VBA Challenge 2017 table](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017_table.png)
 ![VBA Challenge 2017 runtime](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
@@ -27,6 +27,7 @@ From the table above, we can see that there were only two tickers with a positiv
 The refactored code runs the script for 2018 in 0.1445312 seconds, while the original code ran in 0.8046875.
 
 ###Comparing Stock Performance
+
 From our tables and analysis above, we can see that from 2017 to 2018, the only two tickers that had a positive yearly return were RUN and ENPH. Investments not sold in this stock grew in value over two years. The ticker TERP was the only ticker that had a negative percent yearly return over two years, meaning investments not sold in this stock decreased in value in both years.
 The runtime of the refactored code is approximately five times faster than the original code. 
 
