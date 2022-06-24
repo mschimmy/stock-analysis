@@ -15,12 +15,14 @@ I then used conditional formatting to illustrate the outcomes of each script and
 ### Analysis of 2017 stock
 ![VBA Challenge 2017](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 ![VBA Challenge 2017 table](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017_table.png)
+
 From the table above, we can see that the TERP ticker was the only stock that had a negative yearly return, while all others were positive. The four tickers with the highest percent yearly return were DQ, SEDG, ENPH, and FSLR in that order. Investments not sold in each of these stocks more than doubled in 2017. The four tickers with the highest total daily value were SPWR, FSLR, CSIQ, and RUN, meaning that these stocks were the most actively traded.
 We can see that the refactored code runs the script for 2017 in 0.1601562 seconds, while the original code ran in 0.8515625 seconds.
 
 ### Analysis of 2018 Stock
 ![VBA Challenge 2018](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 ![VBA Challenge 2018 table](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2018_table.png)
+
 From the table above, we can see that there were only two tickers with a positive percent yearly return: RUN and ENPH. Both RUN and ENPH had a percent yearly increase of more than 80%, making them quite successful. All other tickers had a negative percent yearly return, meaning any investments not sold in these stocks lost value, with the JKS ticker losing the most, more than half its value. The four tickers with the highest total daily value were ENPH, SPWR, RUN, and FSLR.
 The refactored code runs the script for 2018 in 0.1445312 seconds, while the original code ran in 0.8046875.
 
@@ -30,6 +32,6 @@ The runtime of the refactored code is approximately five times faster than the o
 
 ## Summary
 - What are the advantages or disadvantages of refactoring code?
-  -- An advantage of refactoring code is that it decreases the total amount of time and effort spent on creating the script, saving the analyst valuable resources. It allows us to not have to reinvent the wheel, and instead build upon code that has already been written. A disadvantage of refactoring code is it creates a reliance on comments from the previous analyst to understand what the code is doing. Without these comments, the analyst could spend more time trying to understand the code than what it might have taken to start from scratch. Either way, the ease or difficulty of refactoring code depends on the previous coder.
+  - An advantage of refactoring code is that it decreases the total amount of time and effort spent on creating the script, saving the analyst valuable resources. It allows us to not have to reinvent the wheel, and instead build upon code that has already been written. A disadvantage of refactoring code is it creates a reliance on comments from the previous analyst to understand what the code is doing. Without these comments, the analyst could spend more time trying to understand the code than what it might have taken to start from scratch. Either way, the ease or difficulty of refactoring code depends on the previous coder.
 - How do these pros and cons apply to refactoring the original VBA script?
-  -- Refactoring the original VBA code was relatively simple in that the provided code was free of syntax errors and structured using comments that were easy to follow. If the code had been filled with errors and without comments, it would have been much more difficult to refactor.
+  - Refactoring the original VBA code was relatively simple in that the provided code was free of syntax errors and structured using comments that were easy to follow. If the code had been filled with errors and without comments, it would have been much more difficult to refactor.
