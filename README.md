@@ -26,7 +26,7 @@ We can see that the refactored code runs the script for 2017 in 0.1601562 second
 From the table above, we can see that there were only two tickers with a positive percent yearly return: RUN and ENPH. Both RUN and ENPH had a percent yearly increase of more than 80%, making them quite successful. All other tickers had a negative percent yearly return, meaning any investments not sold in these stocks lost value, with the JKS ticker losing the most, more than half its value. The four tickers with the highest total daily value were ENPH, SPWR, RUN, and FSLR.
 The refactored code runs the script for 2018 in 0.1445312 seconds, while the original code ran in 0.8046875.
 
-###Comparing Stock Performance
+### Comparing Stock Performance
 
 From our tables and analysis above, we can see that from 2017 to 2018, the only two tickers that had a positive yearly return were RUN and ENPH. Investments not sold in this stock grew in value over two years. The ticker TERP was the only ticker that had a negative percent yearly return over two years, meaning investments not sold in this stock decreased in value in both years.
 The runtime of the refactored code is approximately five times faster than the original code. 
