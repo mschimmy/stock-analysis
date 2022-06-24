@@ -13,15 +13,15 @@ To calculate the yearly return for each year, I developed a script that loops th
 I then used conditional formatting to illustrate the outcomes of each script and increase the overall impact of the analysis results, and created a button to run the script. The runtime of the refactored script for 2017 and 2018 is also provided below in the appropriate analysis section.
 
 ### Analysis of 2017 stock
-![VBA Challenge 2017](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 ![VBA Challenge 2017 table](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017_table.png)
+![VBA Challenge 2017 runtime](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 From the table above, we can see that the TERP ticker was the only stock that had a negative yearly return, while all others were positive. The four tickers with the highest percent yearly return were DQ, SEDG, ENPH, and FSLR in that order. Investments not sold in each of these stocks more than doubled in 2017. The four tickers with the highest total daily value were SPWR, FSLR, CSIQ, and RUN, meaning that these stocks were the most actively traded.
 We can see that the refactored code runs the script for 2017 in 0.1601562 seconds, while the original code ran in 0.8515625 seconds.
 
 ### Analysis of 2018 Stock
-![VBA Challenge 2018](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 ![VBA Challenge 2018 table](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2018_table.png)
+![VBA Challenge 2018 runtime](https://github.com/mschimmy/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 From the table above, we can see that there were only two tickers with a positive percent yearly return: RUN and ENPH. Both RUN and ENPH had a percent yearly increase of more than 80%, making them quite successful. All other tickers had a negative percent yearly return, meaning any investments not sold in these stocks lost value, with the JKS ticker losing the most, more than half its value. The four tickers with the highest total daily value were ENPH, SPWR, RUN, and FSLR.
 The refactored code runs the script for 2018 in 0.1445312 seconds, while the original code ran in 0.8046875.
